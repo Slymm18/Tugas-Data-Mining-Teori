@@ -24,7 +24,7 @@ def load_models():
     try:
         model_nb = joblib.load("model_naive_bayes.pkl")
         model_rf = joblib.load("model_random_forest.pkl")
-        ensemble = joblib.load("model_ensemble_voting(1).pkl")
+        ensemble = joblib.load("model_ensemble_voting (1).pkl")
         features = joblib.load("model_features.pkl")
         return model_nb, model_rf, ensemble, features
     except:
